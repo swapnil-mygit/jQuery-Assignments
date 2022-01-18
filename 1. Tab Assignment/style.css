@@ -35,10 +35,10 @@ body {
   font-size: 17px;
   font-weight: bold;
   cursor: pointer;
+  /* background-color: white; */
 }
 .button-bar button:hover{
-    background-color: rgb(128, 128, 128);
-    /* color: white; */
+    background-color: rgb(190, 190, 190);
 }
 
 .details {
@@ -46,4 +46,8 @@ body {
   padding: 30px 18px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
+}
+
+.active {
+  background-color: rgb(190, 190, 190);
 }

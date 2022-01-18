@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button-bar{
+    width: 800px;
+}
+h2{
+    text-align: center;
+    margin: 40px;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tab-head{
+    background-color: #5bccf6;
+    cursor: pointer;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.tab-head:hover{
+    background-color: #77dbff;
+}
+.tab-para{
+    background-color: #fcde67;
+    display: none;
+    padding: 10px 20px;
+}
+.container .button-bar .elems{
+    border: 2px solid black;
+}

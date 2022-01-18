@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fcde67;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  border: 2px solid black;
+  padding: 2px;
+  border-radius: 7px;
+}
+
+.button-bar {
+  background-color: #5bccf6;
+  padding: 10px 10px 0px 10px;
+  border-radius: 6px 6px 0 0;
+}
+
+.button-bar button {
+  font-family: "Baloo 2", cursive;
+  border: none;
+  padding: 5px 16px;
+  margin-right: 6px;
+  border-radius: 5px 5px 0 0;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button-bar button:hover{
+    background-color: rgb(128, 128, 128);
+    /* color: white; */
+}
+
+.details {
+  height: 220px;
+  padding: 30px 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
